@@ -1,6 +1,6 @@
 # Surface Snapping Optimization Layer for Single Image Object Shape Reconstruction
 
-### ICML 2023 ([PDF](https://arxiv.org/abs/2204.03643](https://openreview.net/pdf?id=C8ijRC4ZvS)))
+### ICML 2023 ([PDF](https://openreview.net/pdf?id=C8ijRC4ZvS)))
 [Yuan-Ting Hu](https://sites.google.com/view/yuantinghu),
 [Alexander G. Schwing](http://www.alexander-schwing.de/),
 [Raymond A. Yeh](https://www.raymond-yeh.com/)<sup>1</sup><br>
