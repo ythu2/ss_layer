@@ -1,0 +1,6 @@
+@inproceedings{hu-icml2023-surface,
+  title = {Surface Snapping Optimization Layer for Single Image Object Shape Reconstruction},
+  author = {Yuan-Ting Hu and Schwing, Alexander G and Yeh, Raymond A},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2023},
+}

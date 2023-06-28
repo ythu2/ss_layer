@@ -1,0 +1,128 @@
+<html>
+  <meta name="robots" content="index, follow">
+
+  <head>
+    <title> Surface Snapping Optimization Layer for Single Image Object Shape Reconstruction </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="theme.css" rel="stylesheet" media="screen">
+  </head>
+
+  <main>
+    <div class="container-md" style="width: 1200px;">
+      <!-- Title -->
+      <div class="pt-4 text-center">
+        <h1> Surface Snapping Optimization Layer for Single Image Object Shape Reconstruction </h1>
+      </div>
+
+      <!-- Authors -->
+      <div class="row py-3 justify-content-md-center">
+        <div class="col-sm-auto">
+          <a href="https://sites.google.com/view/yuantinghu"><h4>Yuan-Ting Hu</h4></a>
+        </div>
+        <div class="col-sm-auto">
+          <a href="http://www.alexander-schwing.de/"><h4>Alexander G. Schwing</h4></a>
+        </div>
+        <div class="col-sm-auto">
+          <h4><a href="http://www.raymond-yeh.com">Raymond A. Yeh</a><sup>1</sup></h4>
+        </div>
+      </div>
+
+    <!-- Schools -->
+    <div class="row justify-content-md-center py-1">
+      <div class="col-lg-auto">
+        <h4> University of Illinois at Urbana-Champaign </h4>
+      </div>
+      <div class="col-lg-auto">
+        <h4> <sup>1</sup>Purdue University</h4>
+      </div>
+    </div>
+
+    <!-- Conference -->
+    <div class="row">
+      <div class="py-3 col-lg text-center">
+        <h4> International Conference on Machine Learning (ICML), 2023 </h4>
+      </div>
+    </div>
+
+    <!-- Useful links-->
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+        <h4><a href="https://openreview.net/pdf?id=C8ijRC4ZvS">Paper</a></h4>
+      </div>
+      <div class="col-md-auto">
+        <h4><a href="https://github.com/ythu2/ss_layer/">Code</a></h4>
+      </div>
+      <div class="col-md-auto">
+        <h4><a href="./resource/bib.txt">Bibtex</a></h4>
+      </div>
+    </div>
+
+    <!-- Teaser here-->
+    <div class="py-4 text-center">
+        <img src="./resource/pipeline.png" class="img-fluid" style="height:250px">
+    </div>
+
+    <br>
+
+    <h2>Abstract</h2>
+    <p>
+    Reconstructing the 3D shape of objects observed in a single image is a challenging task. Recent approaches rely on visual cues extracted from a given image learned from a deep net. In this work, we leverage recent advances in monocular scene understanding to incorporate an additional geometric cue of surface normals. For this, we proposed a novel optimization layer that encourages the face normals of the reconstructed shape to be aligned with estimated surface normals. We develop a computationally efficient conjugate-gradient-based method that avoids the computation of high-dimensional sparse matrices. We show this framework to achieve compelling shape reconstruction results on the challenging Pix3D and ShapeNet datasets.
+    </p>
+
+    <br>
+
+    <h2>Presentation</h2>
+    <div class=text-center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ryEn1-Ntk84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <h2>Materials</h2>
+    <div class="row justify-content-md-center">
+        <div class="col-4">
+            <div class="text-center">
+                <a href="">
+                    <img class="img-responsive img-rounded center-block" src="resource/paper_thumb.jpg" style="height:300px">
+                </a>
+                <br>
+                <a href="">[Paper]</a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="text-center">
+                <a href="resource/poster.pdf">
+                    <img class="img-responsive img-rounded center-block" src="resource/poster_thumb.jpg" style="height:300px">
+                </a>
+                <br>
+                <a href="resource/poster.pdf">[Poster]</a>
+            </div>
+        </div>
+    </div>
+
+
+    <h2>Code</h2>
+    <div class="text-center">
+        <a href="https://github.com/raymondyeh07/learnable_polyphase_sampling">
+            <img class="img-responsive img-rounded center-block" src="./resource/github_logo.png" style="width: 330px">
+        </a>
+        <br>
+        <a href="https://github.com/ythu2/ss_layer/">[GitHub]</a>
+    </div>
+
+
+    <h2> Citation </h2>
+    <div class="bg-light">
+    <pre align="left">
+@inproceedings{hu-icml2023-surface,
+  title = {Surface Snapping Optimization Layer for Single Image Object Shape Reconstruction},
+  author = {Yuan-Ting Hu and Schwing, Alexander G and Yeh, Raymond A},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2023},
+}</pre>
+    </div>
+    </div>
+  </main>
+
+</html>
